@@ -1,26 +1,29 @@
 {
-  "name": "api-project",
-  "version": "1.0.0",
-  "description": "Node.js Api Project",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest"
-  },
-  "engines": {
-    "node": ">=16"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TimeCons/api-project.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/TimeCons/api-project/issues"
-  },
-  "homepage": "https://github.com/TimeCons/api-project#readme",
-  "devDependencies": {
-    "jest": "^29.0.3"
-  }
+    "name": "api-project",
+    "version": "1.0.0",
+    "description": "Node.js Api Project",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "format": "prettier --write .",
+        "check": "prettier --check ."
+    },
+    "engines": {
+        "node": ">=16"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/TimeCons/api-project.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/TimeCons/api-project/issues"
+    },
+    "homepage": "https://github.com/TimeCons/api-project#readme",
+    "devDependencies": {
+        "jest": "^29.0.3",
+        "prettier": "2.7.1"
+    }
 }
